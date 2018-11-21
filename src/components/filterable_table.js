@@ -1,9 +1,9 @@
-import React from 'react';
+import React, { Component } from 'react';
 
 import SearchBar from '../components/search_bar';
 import ProductTable from '../components/product_table';
 
-class FilterableProductTable extends React.Component {
+export default class FilterableProductTable extends Component {
     render() {
         return (
         <div>
@@ -14,4 +14,3 @@ class FilterableProductTable extends React.Component {
     }
 }
 
-export default FilterableProductTable;
