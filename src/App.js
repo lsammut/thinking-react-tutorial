@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 
-import FilterableProductTable from './components/filterable_table'
+import FilterableProductTable from './components/filterable_product_table'
 
 const PRODUCTS = [
   {category: 'Sporting Goods', price: '$49.99', stocked: true, name: 'Football'},
