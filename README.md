@@ -1,3 +1,20 @@
+# Thinking in React tutorial
+
+[Link to tutorial:](https://reactjs.org/docs/thinking-in-react.html)
+
+Outline of the Workflow:
+
+ * Step 0. Build a Mock
+ * Step 1: Break The UI Into A Component Hierarchy
+ * Step 2: Build A Static Version in React
+ * Step 3: Identify The Minimal (but complete) Representation Of UI State
+ * Step 4: Identify Where Your State Should Live
+ * Step 5: Add Inverse Data Flow
+
+
+
+# Pretext
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
