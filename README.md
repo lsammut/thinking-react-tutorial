@@ -7,11 +7,16 @@ Outline of the Workflow:
  * Step 0. Build a Mock
  * Step 1: Break The UI Into A Component Hierarchy
  * Step 2: Build A Static Version in React
+    * Refactor app into components. 
+    * One component file for each class/function/task
  * Step 3: Identify The Minimal (but complete) Representation Of UI State
  * Step 4: Identify Where Your State Should Live
- * Step 5: Add Inverse Data Flow
-
-
+    * Identify and add state to owner/pareng component constuctor
+    * Pass state to child components
+    * Call state from props in child components
+ * Step 5: Add Inverse Data Flow    
+    * Added onChange event handlers
+    * callbacks call setState so app can be updated/rerendered
 
 # Pretext
 
