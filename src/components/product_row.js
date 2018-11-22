@@ -18,4 +18,4 @@ class ProductRow extends React.Component {
     }
 }
 
-export default ProductRow
+export default ProductRow;
