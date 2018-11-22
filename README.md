@@ -18,6 +18,11 @@ Outline of the Workflow:
     * Added onChange event handlers
     * callbacks call setState so app can be updated/rerendered
 
+Extras
+
+* Refactoring
+    *  Fat arrow functions - don't need to explicitly bind to ```this``` in constructor
+
 # Pretext
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
