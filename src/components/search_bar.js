@@ -16,9 +16,6 @@ class SearchBar extends React.Component {
     }
 
     render() {
-        const filterText = this.props.filterText;
-        const inStockOnly = this.props.inStockOnly;
-
         return (
         <form>
             <input 

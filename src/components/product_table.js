@@ -3,11 +3,7 @@ import React from 'react';
 import ProductRow from '../components/product_row';
 import ProductCategoryRow from '../components/product_category_row';
 
-class ProductTable extends React.Component {
-    constructor(props) {
-        super(props);
-    }
-    
+class ProductTable extends React.Component {   
     render() {
         const filterText = this.props.filterText;
         const inStockOnly = this.props.inStockOnly;
